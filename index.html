@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Luís Melo's Pomodoro Clock</title>
+
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="">
+      <h1 id="title">Pomodoro Clock</h1>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class=col-xs-1></div>
+
+
+      <div class="col-xs-5 unitChange">
+        <p><strong>Break Lenght</strong></p>
+        <a class="btn btn-default" onclick="breaktime(-1);">-</a>
+        <span id="break">5</span>
+        <a class="btn btn-default" onclick="breaktime(1);">+</a>
+      </div>
+
+
+      <div class="col-xs-5 unitChange">
+        <p><strong>Work Lenght</strong></p>
+        <a class="btn btn-default" onclick="worktime(-1)">-</a>
+        <span id="work">25</span>
+        <a class="btn btn-default" onclick="worktime(1)">+</a>
+      </div>
+      <div class=col-xs-1></div>
+    </div>
+
+<br><br><br>
+
+    <div class="row" style="text-align:center">
+      <a class="pomodoro" onclick="pomodoro();"><div class=" text-center circle well"><span style="font-size:35px">Session</span><br><span class="timer">25</span></div></a>
+    </div>
+
+    <link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
