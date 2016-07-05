@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html >
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <!-- Latest compiled and minified CSS bootstrap -->
+    <meta charset="UTF-8" name="viewport" content="width=device-width" >
+    <title>Luís Melo's Pomodoro Clock</title>
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Link my CSS -->
-    <link rel="stylesheet" href="assets/css/flipclock.css">
+    <!-- FlipClock CSS File -->
+    <link rel="stylesheet" href="bower_components/flipclock/compiled/flipclock.css">
+    <!-- My CSS File -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <meta charset="UTF-8">
-    <title>Luís Melo's Pomodoro Clock</title>
   </head>
   <body class="all">
       <div id="title">
@@ -28,9 +29,9 @@
           <span id="breakLength">5</span>
           <a class="btn btn-default changeBreak">+</a>
         </div>
-      </div>
+    	</div><br />
 
-      <br />
+
 
       <div class="center">
         <span class="clock"></span><br /><br />
@@ -40,17 +41,20 @@
         <span id="message">Come On, Click To Start Working... You Can do It</span><br /><br />
         <button class="buttonreset">&#x21bb; Reset Clock</button>
       </div>
+
+
+
+    <!-- Jquery JS file -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- FlipClock JS file -->
+  	<script src="bower_components/flipclock/compiled/flipclock.min.js"></script>
+    <!-- Bootstrap JS file -->
+  	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- My JS file -->
+  	<script src="assets/js/main.js"></script>
+
   </body>
-  
   <footer>
     <small> Free Code Camp Zipline - Luís Melo - 2016</small>
   </footer>
-
-  <!-- JQuery min file -->
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="assets/js/flipclock.min.js"></script>
-  <!-- My one and only (script)-->
-  <script src="assets/js/main.js"></script>
 </html>

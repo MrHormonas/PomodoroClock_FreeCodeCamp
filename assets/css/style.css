@@ -39,3 +39,28 @@ button{
   background-color: #DDD;
   color:#888;
 }
+
+
+@media (max-width: 768px)
+{
+  .all
+  {
+    font-size: 18px;
+  }
+
+  #title
+  {
+    font-size: 42px;
+    text-shadow: 4px 4px 0px rgba(200,200,200,0.1);
+  }
+
+  footer{
+    width:110%;
+    height:5%;
+    bottom:-10%;
+  }
+
+  button{
+    border-radius: 10px;
+  }
+}
