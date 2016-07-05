@@ -1,0 +1,17 @@
+{
+  "name": "PomodoroClock",
+  "homepage": "https://github.com/luisfmelo/PomodoroClock",
+  "authors": [
+    "Luis Melo <luismelo7@gmail.com>"
+  ],
+  "description": "FCC zipline",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
